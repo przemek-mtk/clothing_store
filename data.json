@@ -1,0 +1,142 @@
+// [
+//   {
+
+//     "type": "male female kido",
+//     "id": 1,
+//     "name": "name-name-name",
+//     "description": "Lorem ipsum dolor sit amet",
+//     "price": 99.99,
+//     "size": ["xs", "s", "m", "l", "xl", "xxl"],
+//     "reviews": [],
+//     "rating": {
+//       "number_of_votes": 0,
+//       "average": 0
+//     }
+
+    
+//   }
+// ]
+
+
+
+
+// strona startowa
+// kobieta/mezczyzna/dziecko
+// >.../kobieta
+// >.../mezczyzna
+// >.../dziecko
+
+
+// co ma mi zwrócić zapytanie https:home.pl/{płeć}
+
+// *topowe przedmioty
+// *NP tablica 10 przedmiotów
+// [
+//   {
+//     id: number,
+//     category: string,
+//     producer: string,
+//     name: string,
+//     price: number,
+//     img: string,
+
+//   }
+// ]
+
+
+
+
+// >.../kobieta/{category}
+// >.../mezczyzna/{category}
+// >.../dziecko/{category}
+
+// >.../kobieta/obuwie
+// >.../mezczyzna/kurtki
+// >.../dziecko/czapki
+
+
+// *topowe przedmioty
+// *NP tablica 10 przedmiotów
+// [
+//   {
+//     id: number,
+//     category: string,
+//     producer: string,
+//     name: string,
+//     price: number,
+//     img: string,
+//   }
+// ]
+
+
+// >.../kobieta/{category}/{id}
+// >.../mezczyzna/{category}/{id}
+// >.../dziecko/{category}/{id}
+
+// >.../kobieta/obuwie/12
+// >.../mezczyzna/kurtki/1423
+// >.../dziecko/czapki/918
+
+// *topowe przedmioty
+// *NP tablica 10 przedmiotów
+// [
+//   {
+//     id: number,
+//     category: string,
+//     producer: string,
+//     name: string,
+//     price: number,
+//     img: string,
+
+//     description: "Lorem ipsum dolor sit amet",
+//     size: ["xs", "s", "m", "l", "xl", "xxl"],
+//     reviews: [],
+//     rating: {
+//       number_of_votes: 0,
+//       average: 0
+//     }
+//   }
+
+// ]
+
+
+
+
+
+
+
+// // podział kobieta/mezczyzna/dziecko
+// // podział na kategorie
+// // pojedyńczy przedmiot
+
+
+
+
+
+
+// // kobiety / mężczyźni / dzieci
+
+// // sukienki
+// // koszulki
+// // bluzki i koszule
+// // swetry
+// // bluzy
+// // kurtki
+// // spodnie
+// // spódnice
+// // obuwie
+
+
+// // koszulki
+// // koszule
+// // bluzy
+// // kurtki
+// // spodnie
+// // swetry
+// // marynarki
+// // obuwie
+
+// // body
+// // obuwie
+// // kurtki
+// // czapki
